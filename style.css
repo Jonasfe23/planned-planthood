@@ -1,7 +1,45 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper {
     max-width: 1000px;
+    margin: auto;
+}
+
+header {}
+
+#headerGrid {
+    height: 540px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#handPicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: auto/auto/ span 2 / span 1;
+    background-image: url(assets/hand-header.png);
+}
+
+#logo {}
+
+.headerAsideTop {
+    grid-area: auto/auto/ span 1/ span 1;
+    background-color: #9E6D52;
+    background-image: url(assets/dig.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.headerAsideBottom {
+    grid-area: auto/auto/ span 1/ span 1;
+    background-color: #0A846E;
+    background-image: url(assets/seedling.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
