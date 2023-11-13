@@ -130,9 +130,10 @@ hr {
     gap: 1rem;
 }
 
-.seedCard {
-    display: flex;
-    flex-wrap: wrap;
+.seedCard article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 #gridSection h2 {
@@ -185,7 +186,7 @@ hr {
     grid-row: 3/4;
 }
 
-#gridSection button {
+#gridSection #showMoreButton {
     grid-column: 2/3;
     grid-row: 4/5;
     border: none;
