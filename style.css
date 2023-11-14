@@ -165,25 +165,51 @@ hr {
     grid-column: 2/3;
     grid-row: 2 / 3;
 }
-
+.tomato {
+    background-image: url(assets/tomat.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .seedCardTomatoSmall {
     grid-column: 3/4;
     grid-row: 2 / 3;
+}
+
+.tomatoSmall {
+    background-image: url(assets/tomat-liten.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .seedCardSugarsnap {
     grid-column: 1 / 2;
     grid-row: 3/4;
 }
-
+.sugarsnap {
+    background-image: url(assets/sugarsnaps.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 .seedCardTurnip {
     grid-column: 2/3;
     grid-row: 3/4
 }
 
+.turnip {
+    background-image: url(assets/majrova.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .seedCardSquash {
     grid-column: 3/4;
     grid-row: 3/4;
+}
+
+.squash {
+    background-image: url(assets/squash.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #gridSection #showMoreButton {
