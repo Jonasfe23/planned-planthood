@@ -291,3 +291,15 @@ hr {
     font-size: 24px;
     margin: auto;
 }
+
+#buttonLeft {
+    width: 281px;
+    height: 3.9375rem;
+    align-self: start;
+}
+
+/* page2-CSS */
+
+.page2headerpic {
+    background-image: url(assets/hand-header.png);
+}
