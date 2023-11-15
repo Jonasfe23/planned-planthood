@@ -7,10 +7,15 @@
     padding: 0;
 }
 
+body {
+    background-color: #FCF6FC;
+}
+
 .wrapper {
     max-width: 1000px;
     margin: auto;
-    box-shadow: 0 0 10px #00000094;
+    box-shadow: 0 0 5px #9a989894;
+    background-color: white;
     /* box-shadow: 0 2px #03382F1C;  vi behöver sätta rätt skugga på wrappern*/
 }
 
@@ -32,7 +37,7 @@
 .headerAsideTop {
     grid-area: auto/auto/ span 1/ span 1;
     background-color: #9E6D52;
-    background-image: url(assets/dig.png);
+    background-image: url(assets/seedling.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -40,7 +45,7 @@
 .headerAsideBottom {
     grid-area: auto/auto/ span 1/ span 1;
     background-color: #0A846E;
-    background-image: url(assets/seedling.png);
+    background-image: url(assets/dig.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -73,7 +78,8 @@ h1 {
 
 #seasonFlexbox {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 6rem;
 }
 
 .circleBg {
@@ -101,19 +107,20 @@ h1 {
 .season p {
     font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     max-width: 467px;
-    padding: 2rem 0;
+    padding: 1rem 0 2rem 0;
 }
 
 .season button {
     background-color: #0A846E;
     border: none;
+    box-shadow: 1px 4px 4px rgb(153, 151, 151);
     width: 179px;
     font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     font-size: 24px;
     color: white;
     border-radius: 9px;
-    padding: .7rem 0;
+    padding: .9rem 0;
     align-self: end;
 }
 
@@ -121,19 +128,20 @@ hr {
     width: 303.24px;
     height: .25rem;
     background-color: #055647;
-    margin: 5rem auto;
+    margin: 4rem auto;
 }
 
 #gridSection {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 60px 1fr 1fr 65px;
     display: grid;
-    gap: 2rem;
+    gap: 2.7rem 1.7rem;
+    margin: 0 2rem 5rem 2rem;
 }
 
 .seedCard {
     width: 293.54px;
-    box-shadow: 3px 3px #03382F1C;
+    box-shadow: 3px 4px 2px rgba(130, 130, 130, 0.503);
 }
 
 .seedCard article {
@@ -142,6 +150,16 @@ hr {
     grid-template-rows: 1fr 1fr;
     padding: 1rem;
     height: 111px;
+}
+
+.circleBg-2 {
+    width: 377px;
+    height: 377px;
+    border-radius: 50%;
+    background-color: #0A846E;
+    background-image: url(assets/kruka.png);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #gridSection h2 {
@@ -290,7 +308,8 @@ hr {
     font-family: Inter;
     font-weight: 600;
     font-size: 24px;
-    margin: auto;
+    margin: 1rem auto;
+    box-shadow: 1px 4px 4px rgb(153, 151, 151);
 }
 
 #buttonLeft {
@@ -299,6 +318,7 @@ hr {
     align-self: start;
 }
 
+
 #footerGrid {
     font-family: 'Maven Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: grid;
@@ -306,6 +326,8 @@ hr {
     grid-template-rows: repeat(8, 1fr);
     height: 590px;
     background-image: url(assets/hand-footer.png);
+    background-repeat: no-repeat;
+    /* filter: brightness(20%); */
 }
 
 #footerGrid #leftBackground {
@@ -352,6 +374,22 @@ hr {
     color: white;
     font-size: 1.25rem;
 }
+
+footer .backTopNav {
+    height: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .backTopNav a {
+    text-decoration: none;
+    color: blacK;
+    font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
 
 /* page2-CSS */
 
