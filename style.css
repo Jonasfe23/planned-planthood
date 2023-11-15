@@ -393,6 +393,35 @@ footer .backTopNav a {
 
 /* page2-CSS */
 
-.page2headerpic {
-    background-image: url(assets/hand-header.png);
+#page2headerpic {
+    font-family: 'Maven Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(assets/hand-footer.png);
+    height: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: 0cm;
+}
+
+#page2headerpic h3 {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 2rem;
+}
+
+#newPlant{
+    height: 500px;
+}
+
+.picGrid {
+    display: flex;
+    margin: 0 2rem 0 2rem;
+/*hur får vi den här att centreras??*/
+}
+
+.footerPicGrid {
+    padding: 0.5rem;
+    justify-content: space-between;
 }
