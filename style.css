@@ -212,22 +212,14 @@ h3 {
     grid-column: 2/3;
     grid-row: 2 / 3;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 11a2fb5e8b39c1fd59143b72717ad9b8f961ceb6
 .tomato {
     background-image: url(assets/tomat.png);
     background-repeat: no-repeat;
     background-size: 100%;
-<<<<<<< HEAD
     width: 293.54px;
     height: 296px;
 }
 
-=======
-}
->>>>>>> 11a2fb5e8b39c1fd59143b72717ad9b8f961ceb6
 .seedCardTomatoSmall {
     grid-column: 3/4;
     grid-row: 2 / 3;
@@ -237,18 +229,14 @@ h3 {
     background-image: url(assets/tomat-liten.png);
     background-repeat: no-repeat;
     background-size: 100%;
-<<<<<<< HEAD
     width: 293.54px;
     height: 296px;
-=======
->>>>>>> 11a2fb5e8b39c1fd59143b72717ad9b8f961ceb6
 }
 
 .seedCardSugarsnap {
     grid-column: 1 / 2;
     grid-row: 3/4;
 }
-<<<<<<< HEAD
 
 .sugersnap {
     background-image: url(assets/sockerärtor.png);
@@ -258,13 +246,6 @@ h3 {
     height: 296px;
 }
 
-=======
-.sugarsnap {
-    background-image: url(assets/sugarsnaps.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
->>>>>>> 11a2fb5e8b39c1fd59143b72717ad9b8f961ceb6
 .seedCardTurnip {
     grid-column: 2/3;
     grid-row: 3/4
@@ -274,11 +255,8 @@ h3 {
     background-image: url(assets/majrova.png);
     background-repeat: no-repeat;
     background-size: 100%;
-<<<<<<< HEAD
     width: 293.54px;
     height: 296px;
-=======
->>>>>>> 11a2fb5e8b39c1fd59143b72717ad9b8f961ceb6
 }
 
 .seedCardSquash {
@@ -290,7 +268,6 @@ h3 {
     background-image: url(assets/squash.png);
     background-repeat: no-repeat;
     background-size: 100%;
-<<<<<<< HEAD
     width: 293.54px;
     height: 296px;
 }
@@ -298,30 +275,15 @@ h3 {
 #showMoreButton {
     width: 157px;
     height: 63px;
-=======
-}
-
-#gridSection #showMoreButton {
->>>>>>> 11a2fb5e8b39c1fd59143b72717ad9b8f961ceb6
     grid-column: 2/3;
     grid-row: 4/5;
     border: none;
     border-radius: 8px;
     background-color: #0A846E;
     color: white;
-<<<<<<< HEAD
     font-family: Inter;
     font-weight: 600;
     font-size: 24px;
     margin: auto;
 }
 
-=======
-}
-
-/* page2-CSS */
-
-.page2headerpic {
-    background-image: url(assets/hand-header.png);
-}
->>>>>>> 11a2fb5e8b39c1fd59143b72717ad9b8f961ceb6
