@@ -180,31 +180,21 @@ body .wrapper #gridSection article figure {
     align-items: center;
 }
 
-body .wrapper #gridSection .seedCardCucumber {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-}
 
-.cucumber {
-    background-image: url(assets/gurka.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 296px;
-}
 
-.seedCard article h3 {
+body .wrapper #gridSection .seedCard article h3 {
     font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
     font-size: 24px;
 }
 
-.kruka {
+body .wrapper #gridSection .seedCard figure .pot {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.seedCardDate {
+body .wrapper #gridSection .seedCard article .seedCardDate {
     font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -212,7 +202,7 @@ body .wrapper #gridSection .seedCardCucumber {
     padding-top: 4px;
 }
 
-.seedCardName {
+body .wrapper #gridSection .seedCard article .seedCardName {
     font-family: 'Lato', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -220,7 +210,7 @@ body .wrapper #gridSection .seedCardCucumber {
     align-self: center
 }
 
-.seedCardButton {
+body .wrapper #gridSection .seedCard article .seedCardButton {
     font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -234,39 +224,50 @@ body .wrapper #gridSection .seedCardCucumber {
     align-self: center;
 }
 
-
-.seedCardTomato {
-    grid-column: 2/3;
-    grid-row: 2 / 3;
-}
-
-.tomato {
-    background-image: url(assets/tomat.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 293.54px;
-    height: 296px;
-}
-
-.seedCardTomatoSmall {
-    grid-column: 3/4;
-    grid-row: 2 / 3;
-}
-
-.tomatoSmall {
-    background-image: url(assets/tomat-liten.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 293.54px;
-    height: 296px;
-}
-
-.seedCardSugarsnap {
+body .wrapper #gridSection .seedCardCucumber {
     grid-column: 1 / 2;
-    grid-row: 3/4;
+    grid-row: 2 / 3;
 }
 
-.sugarsnap {
+body .wrapper #gridSection .seedCardCucumber .cucumber {
+    background-image: url(assets/cucumber.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 296px;
+}
+
+body .wrapper #gridSection .seedCardTomato {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+body .wrapper #gridSection .seedCardTomato .tomato {
+    background-image: url(assets/tomato.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 293.54px;
+    height: 296px;
+}
+
+body .wrapper #gridSection .seedCardTomatoSmall {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+body .wrapper #gridSection .seedCardTomatoSmall .tomatoSmall {
+    background-image: url(assets/tomato-small.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 293.54px;
+    height: 296px;
+}
+
+body .wrapper #gridSection .seedCardSugarsnap {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+body .wrapper #gridSection .seedCardSugarsnap .sugarsnap {
     background-image: url(assets/sugarsnaps.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -274,25 +275,25 @@ body .wrapper #gridSection .seedCardCucumber {
     height: 296px;
 }
 
-.seedCardTurnip {
+body .wrapper #gridSection .seedCardTurnip {
     grid-column: 2/3;
     grid-row: 3/4
 }
 
-.turnip {
-    background-image: url(assets/majrova.png);
+body .wrapper #gridSection .seedCardTurnip .turnip {
+    background-image: url(assets/turnip.png);
     background-repeat: no-repeat;
     background-size: 100%;
     width: 293.54px;
     height: 296px;
 }
 
-.seedCardSquash {
+body .wrapper #gridSection .seedCardSquash {
     grid-column: 3/4;
     grid-row: 3/4;
 }
 
-.squash {
+body .wrapper #gridSection .seedCardSquash .squash {
     background-image: url(assets/squash.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -300,7 +301,7 @@ body .wrapper #gridSection .seedCardCucumber {
     height: 296px;
 }
 
-#showMoreButton {
+body .wrapper #gridSection #showMoreButton {
     width: 157px;
     height: 63px;
     grid-column: 2/3;
@@ -318,25 +319,25 @@ body .wrapper #gridSection .seedCardCucumber {
 
 /* Våra tidigare odlingar */
 
-#buttonLeft {
+body .wrapper .seasonFlexbox .season #buttonLeft {
     width: 281px;
     height: 3.9375rem;
     align-self: start;
 }
 
-.circleBg-2 {
+body .wrapper .seasonFlexbox .circleBg-2 {
     width: 377px;
     height: 377px;
     border-radius: 50%;
     background-color: #0A846E;
-    background-image: url(assets/kruka.png);
+    background-image: url(assets/pot.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 /* Footer */
 
-#footerGrid {
+body .wrapper #footerGrid {
     font-family: 'Maven Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -346,34 +347,35 @@ body .wrapper #gridSection .seedCardCucumber {
     background-repeat: no-repeat;
 }
 
-#footerGrid #leftBackground {
+body .wrapper #footerGrid #leftBackground {
     display: grid;
     background: rgba(0, 0, 0, 0.790);
     padding: 1rem;
     grid-area: auto / auto / span 8 / span 4;
 }
 
-#footerGrid #rightBackground {
+body .wrapper #footerGrid #rightBackground {
     display: grid;
     background-color: #05564733;
     grid-area: auto / auto / span 8 / span 4;
 }
 
-#footerGrid #leftBackground nav {
+body .wrapper #footerGrid #leftBackground nav {
     display: flex;
     justify-content: space-between;
-    grid-area: 8/1/9/span 4;
+    grid-area: 8 / 1 / 9 / span 4;
+    /* Starta rad 8 / Starta kolumn 1 / Sluta innan rad 9 / täck 4 kolumner */
     align-items: center;
 }
 
-#footerGrid #leftBackground nav article {
+body .wrapper #footerGrid #leftBackground nav article {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 10rem;
 }
 
-#footerGrid #leftBackground h2 {
+body .wrapper #footerGrid #leftBackground h2 {
     font-size: 4rem;
     color: white;
     font-weight: 500;
@@ -382,18 +384,18 @@ body .wrapper #gridSection .seedCardCucumber {
     align-self: center;
 }
 
-#footerGrid #logoFooter {
+body .wrapper #footerGrid #logoFooter {
     justify-self: center;
     align-self: center;
 }
 
-#footerGrid a {
+body .wrapper #footerGrid a {
     text-decoration: none;
     color: white;
     font-size: 1.25rem;
 }
 
-footer .backTopNav {
+body .wrapper footer .backTopNav {
     height: 5rem;
     margin-bottom: 10rem;
     display: flex;
@@ -401,7 +403,7 @@ footer .backTopNav {
     align-items: center;
 }
 
-footer .backTopNav a {
+body .wrapper footer .backTopNav a {
     text-decoration: none;
     color: blacK;
     font-family: 'Open Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
