@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Maven+Pro:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-
+/* Kod som gäller hela dokumentet */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,14 +11,22 @@ body {
     background-color: #FCF6FC;
 }
 
+button:hover {
+    transform: scale(1.02);
+}
+
+button:active {
+    transform: scale(1);
+}
+
 .wrapper {
     max-width: 1000px;
     margin: auto;
-    box-shadow: 0 0 5px #9a989894;
+    box-shadow: 0 5px 5px #9a989894;
     background-color: white;
-    /* box-shadow: 0 2px #03382F1C;  vi behöver sätta rätt skugga på wrappern*/
 }
 
+/* Headerkoden */
 #headerGrid {
     height: 540px;
     display: grid;
@@ -66,6 +74,8 @@ header nav a {
     font-weight: 500;
 }
 
+/* Planned Planthood */
+
 h1 {
     color: #0A846E;
     font-size: 48px;
@@ -73,7 +83,6 @@ h1 {
     font-weight: 500;
     text-align: center;
     margin: 2rem 0;
-
 }
 
 #seasonFlexbox {
@@ -131,6 +140,8 @@ hr {
     margin: 4rem auto;
 }
 
+/* Våra planerade planteringar */
+
 #gridSection {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 60px 1fr 1fr 65px;
@@ -152,15 +163,7 @@ hr {
     height: 111px;
 }
 
-.circleBg-2 {
-    width: 377px;
-    height: 377px;
-    border-radius: 50%;
-    background-color: #0A846E;
-    background-image: url(assets/kruka.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
+
 
 #gridSection h2 {
     grid-column: 1 / span 3;
@@ -305,12 +308,14 @@ hr {
     border-radius: 8px;
     background-color: #0A846E;
     color: white;
-    font-family: Inter;
+    font-family: 'Inter';
     font-weight: 600;
     font-size: 24px;
     margin: 1rem auto;
     box-shadow: 1px 4px 4px rgb(153, 151, 151);
 }
+
+/* Våra tidigare odlingar */
 
 #buttonLeft {
     width: 281px;
@@ -318,6 +323,17 @@ hr {
     align-self: start;
 }
 
+.circleBg-2 {
+    width: 377px;
+    height: 377px;
+    border-radius: 50%;
+    background-color: #0A846E;
+    background-image: url(assets/kruka.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Footer */
 
 #footerGrid {
     font-family: 'Maven Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -327,13 +343,18 @@ hr {
     height: 590px;
     background-image: url(assets/hand-footer.png);
     background-repeat: no-repeat;
-    /* filter: brightness(20%); */
 }
 
 #footerGrid #leftBackground {
     display: grid;
     background: rgba(0, 0, 0, 0.790);
     padding: 1rem;
+    grid-area: auto / auto / span 8 / span 4;
+}
+
+#footerGrid #rightBackground {
+    display: grid;
+    background-color: #05564733;
     grid-area: auto / auto / span 8 / span 4;
 }
 
@@ -351,7 +372,6 @@ hr {
     width: 10rem;
 }
 
-
 #footerGrid #leftBackground h2 {
     font-size: 4rem;
     color: white;
@@ -361,13 +381,10 @@ hr {
     align-self: center;
 }
 
-#footerGrid img {
-    grid-area: 1 /5 / span 8 / span 4;
+#footerGrid #logoFooter {
     justify-self: center;
     align-self: center;
 }
-
-
 
 #footerGrid a {
     text-decoration: none;
@@ -411,14 +428,14 @@ footer .backTopNav a {
     padding: 2rem;
 }
 
-#newPlant{
+#newPlant {
     height: 500px;
 }
 
 .picGrid {
     display: flex;
     margin: 0 2rem 0 2rem;
-/*hur får vi den här att centreras??*/
+    /*hur får vi den här att centreras??*/
 }
 
 .footerPicGrid {
